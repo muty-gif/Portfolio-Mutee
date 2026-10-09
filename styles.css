@@ -23,6 +23,17 @@
     box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+@media (prefers-reduced-motion: reduce){
+  html{
+    scroll-behavior: auto;
+  }
+}
+
 body{
     background-color: var(--black);
     color: var(--white);
@@ -53,6 +64,7 @@ header{
     position: sticky;
     top: 0;
     background-color: var(--black);
+    z-index: 10;
 }
 
 nav ul{
@@ -110,7 +122,7 @@ p + p{
  
 #inicio{
   border-top: none;
-  padding-block: var(--space-xl) var(--space-lg);
+  padding-block: var(--space-lg) var(--space-md);
 }
 
 .eyebrow{
@@ -148,17 +160,120 @@ p + p{
   margin-top: var(--space-lg);
 }
  
-.interests{
+.interests, #habilidades ul{
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-xs);
   margin-top: var(--space-sm);
 }
  
-.interests li{
+.interests li, #habilidades li{
   border: 1px solid var(--divider);
   color: var(--text-secondary);
   font-size: 0.8rem;
   padding: var(--space-xs) var(--space-sm);
   border-radius: 999px;
+}
+
+#proyectos{
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); */
+  gap: var(--space-md);
+}
+#proyectos h2{
+  grid-column: 1 / -1;
+  margin-bottom: 0;
+}
+
+article{
+  border: 1px solid var(--divider);
+  border-radius: 16px;
+  padding: var(--space-md);
+}
+
+article h3{
+  margin-top: 0;
+}
+
+ul + h3{
+  margin-top: var(--space-md);
+}
+
+#contacto ul{
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+  margin-top: var(--space-sm);
+}
+
+#contacto li a{
+  display: inline-block;
+  color: var(--white);
+  border: 1px solid var(--white);
+  border-radius: 999px;
+  padding: var(--space-xs) var(--space-md);
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+#contacto li a:hover{
+  background-color: var(--neon);
+  border-color: var(--neon);
+  color: var(--black);
+}
+
+footer{
+  text-align: center;
+  padding: var(--space-md);
+  border-top: 1px solid var(--divider);
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+}
+
+a:focus-visible{
+  outline: 2px solid var(--neon);
+  outline-offset: 4px;
+}
+
+@media (max-width: 600px){
+
+html{
+  scroll-padding-top: 9rem;
+}
+
+#inicio{
+  border-top: none;
+  padding-block: var(--space-md) var(--space-sm);
+}
+
+header{
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-xs);
+  padding: var(--space-sm);
+}
+
+nav{
+  width: 100%;
+}
+
+nav ul{
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: var(--space-xs) var(--space-sm);
+}
+
+nav a{
+  font-size: 0.85rem;
+}
+
+main{
+  padding-inline: var(--space-sm);
+}
+
+section{
+  padding-block: var(--space-md);
+}
+
 }
