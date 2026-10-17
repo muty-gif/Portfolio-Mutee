@@ -195,6 +195,26 @@ article h3{
   margin-top: 0;
 }
 
+.project-image{
+  display: block;
+  margin-bottom: var(--space-sm);
+}
+
+.project-image img{
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--divider);
+  border-radius: 12px;
+  transition: transform 150ms ease, border-color 150ms ease;
+}
+
+.project-image:hover img,
+.project-image:focus-visible img{
+  border-color: var(--white);
+  transform: translateY(-3px);
+}
+
 ul + h3{
   margin-top: var(--space-md);
 }
