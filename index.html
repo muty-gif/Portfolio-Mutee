@@ -1,19 +1,23 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Mutee Rafi Anjum - Portfolio</title>
-    <meta name="description" content="Portfolio personal de Mutee Rafi Anjum, estudiante de ingeniería informática.">
-    
+    <meta name="description" content="Personal portfolio of Mutee Rafi Anjum, computer engineering student.">
+    <meta name="author" content="Mutee Rafi Anjum">
+    <meta name="theme-color" content="#000000">
+
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/x-icon" href="images/new-icon.png">
-    
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://muty-gif.github.io/Portfolio-Mutee/">
     <meta property="og:title" content="Mutee Rafi Anjum - Portfolio">
-    <meta property="og:description" content="Portfolio personal de Mutee Rafi Anjum, estudiante de ingeniería informática.">
+    <meta property="og:description" content="Personal portfolio of Mutee Rafi Anjum, computer engineering student.">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="es_ES">
     <!-- <meta property="og:image" content="https://github.ioimages/og-preview.png"> -->
 </head>
 <body>
@@ -21,20 +25,24 @@
     <p>Mutee Rafi Anjum</p>
     <nav>
         <ul>
-            <li><a href="#sobre-mi">Sobre mí</a></li>
-            <li><a href="#proyectos">Proyectos</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
-            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#about" data-i18n="nav.about">About</a></li>
+            <li><a href="#projects" data-i18n="nav.projects">Projects</a></li>
+            <li><a href="#skills" data-i18n="nav.skills">Skills</a></li>
+            <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
         </ul>
     </nav>
+    <div class="lang-switch" role="group" aria-label="Language selector" data-i18n-aria-label="lang.switcher">
+        <button type="button" data-lang="en" class="lang-btn" aria-pressed="false">EN</button>
+        <button type="button" data-lang="es" class="lang-btn" aria-pressed="false">ES</button>
+    </div>
     </header>
 
     <main>
-        <section id="inicio">
-            <p class="eyebrow">Estudiante de ingeniería informática.</p>
+        <section id="home">
+            <p class="eyebrow" data-i18n="home.eyebrow">Computer engineering student.</p>
             <h1>Mutee Rafi Anjum</h1>
-            <p class="hook">Aprendo aplicando lo que aprendo, y ahora busco poder seguir haciéndolo en un entorno profesional.</p>
-            <p class="availability">Disponible para trabajar en remoto</p>
+            <p class="hook" data-i18n="home.hook">I learn by applying what I learn, and now I'm looking to keep doing it in a professional environment.</p>
+            <p class="availability" data-i18n="home.availability">Available for remote work</p>
             <ul class="interests">
                 <li>Customer support</li>
                 <li>Technical customer support</li>
@@ -43,42 +51,44 @@
             </ul>
         </section>
 
-        <section id="sobre-mi">
-            <h2>Sobre mí</h2>
-            <p>
-            Con el objetivo de construir una base sólida en el mundo de la tecnología, decidí empezar mis estudios de
-            ingeniería informática, formación que sigo cursando. Tengo un cierto interés en los ámbitos de la tecnología
-            de la información y de la ciberseguridad.
+        <section id="about">
+            <h2 data-i18n="about.title">About me</h2>
+            <p data-i18n="about.p1">
+            With the goal of building a solid foundation in the world of technology, I decided to start my
+            computer engineering studies, which I am still pursuing. I have a particular interest in the fields
+            of information technology and cybersecurity.
             </p>
-            <p>
-            Para saber hace falta ser curioso y querer entender cómo funcionan las cosas por dentro, así que no
-            me conformo con lo básico. Actualmente combino mis estudios con labores de voluntariado en iniciativas tecnológicas, y
-            dedico mi tiempo libre a construir proyectos propios para aprender.
+            <p data-i18n="about.p2">
+            Understanding things means being curious and wanting to learn how they work on the inside, so I don't
+            settle for the basics. I currently combine my studies with volunteering in tech initiatives, and I
+            spend my free time building my own projects to learn.
             </p>
         </section>
 
-        <section id="proyectos">
-            <h2>Proyectos</h2>
+        <section id="projects">
+            <h2 data-i18n="projects.title">Projects</h2>
                 <article>
-                    <h3>Sistema de tickets (Help Desk)</h3>
+                    <h3 data-i18n="projects.helpdesk.title">Ticketing system (Help Desk)</h3>
 
-                    <a href="https://github.com/muty-gif/Help-Desk-L1" target="_blank" rel="noopener" class="project-image" aria-label="Ver el código de Help Desk en GitHub">
+                    <a href="https://github.com/muty-gif/Help-Desk-L1" target="_blank" rel="noopener" class="project-image"
+                       data-i18n-aria-label="projects.helpdesk.imageAria" aria-label="View the Help Desk code on GitHub">
                         <img src="images/help-desk-dashboard.png"
-                             alt="Panel de inicio de Help Desk con estadísticas de tickets y alerta de tickets sin asignar"
+                             data-i18n-alt="projects.helpdesk.imageAlt"
+                             alt="Help Desk dashboard with ticket statistics and an alert for unassigned tickets"
                              loading="lazy">
                     </a>
 
-                    <p>
-                    Aplicación web de soporte con Flask: los usuarios registran incidencias y el equipo técnico
-                    gestiona su estado, prioridad y asignación, con comentarios, historial de cambios y filtros
-                    de búsqueda. Cubierta por 51 pruebas automatizadas con pytest.
+                    <p data-i18n="projects.helpdesk.description">
+                    A Flask-based support web application: users report issues and the technical team manages
+                    their status, priority and assignment, with comments, change history and search filters.
+                    Covered by 51 automated tests with pytest.
                     </p>
                 </article>
         </section>
 
-        <section id="habilidades">
-            <h2>Habilidades</h2>
-            <h3>Técnicas</h3>
+        <section id="skills">
+            <h2 data-i18n="skills.title">Skills</h2>
+            <h3 data-i18n="skills.technical">Technical</h3>
                 <ul>
                     <li>Python</li>
                     <li>Flask</li>
@@ -87,17 +97,17 @@
                     <li>CSS</li>
                     <li>Git</li>
                 </ul>
-            <h3>Laborales</h3>
+            <h3 data-i18n="skills.soft">Workplace</h3>
                 <ul>
-                    <li>Comunicación</li>
-                    <li>Gestión del tiempo</li>
-                    <li>Trabajo en equipo</li>
+                    <li data-i18n="skills.soft.communication">Communication</li>
+                    <li data-i18n="skills.soft.time">Time management</li>
+                    <li data-i18n="skills.soft.teamwork">Teamwork</li>
                 </ul>
         </section>
 
-        <section id="contacto">
-            <h2>Contacto</h2>
-            <p>¿Quieres hablar? Aquí tienes mis enlaces:</p>
+        <section id="contact">
+            <h2 data-i18n="contact.title">Contact</h2>
+            <p data-i18n="contact.intro">Want to talk? Here are my links:</p>
                 <ul>
                     <li><a href="mailto:muteerafi@gmail.com">Email</a></li>
                     <li><a href="https://github.com/muty-gif/" target="_blank" rel="noopener">GitHub</a></li>
@@ -108,8 +118,9 @@
     </main>
 
     <footer>
-        <p>© 2026 Mutee Rafi Anjum. Todos los derechos reservados.</p>
+        <p data-i18n="footer.rights">© 2026 Mutee Rafi Anjum. All rights reserved.</p>
     </footer>
 
+    <script src="script.js" defer></script>
 </body>
 </html>
