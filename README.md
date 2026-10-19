@@ -43,13 +43,19 @@ This is my personal portfolio: a fast, dependency-free static site that presents
 | Behaviour | Vanilla JavaScript (i18n switcher) |
 | Hosting | GitHub Pages |
 
-## Featured project
+## Featured projects
 
 ### [Ticketing system (Help Desk)](https://github.com/muty-gif/Help-Desk-L1)
 
 A Flask-based support web application: users report issues and the technical team manages their status, priority and assignment, with comments, change history and search filters. Covered by 51 automated tests with pytest.
 
 <img src="images/help-desk-dashboard.png" alt="Help Desk dashboard with ticket statistics and an alert for unassigned tickets" width="100%">
+
+### [Project and task tracker (TrackIt)](https://github.com/muty-gif/TrackIt)
+
+A project and task tracker built with Flask and a JSON REST API, with a plain HTML, CSS and JavaScript front end that talks to it using `fetch()`. Each user only ever sees their own projects and tasks, and other users' data returns `404` so it is never leaked. Covered by 57 automated tests, including cross-user isolation.
+
+<img src="images/trackit-tasks.png" alt="TrackIt task list with completed tasks struck through" width="100%">
 
 ## Project structure
 
@@ -58,7 +64,7 @@ Portfolio-Mutee/
 ├── index.html    # Page structure and content (English is the default text)
 ├── styles.css    # Dark neon theme, responsive layout, accessibility details
 ├── script.js     # Language switcher + the EN/ES translation dictionary
-└── images/       # Favicon, project screenshot and README previews
+└── images/       # Favicon, project screenshots and README previews
 ```
 
 ## Run it locally

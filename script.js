@@ -26,6 +26,10 @@ const translations = {
         "projects.helpdesk.imageAlt": "Help Desk dashboard with ticket statistics and an alert for unassigned tickets",
         "projects.helpdesk.imageAria": "View the Help Desk code on GitHub",
         "projects.helpdesk.description": "A Flask-based support web application: users report issues and the technical team manages their status, priority and assignment, with comments, change history and search filters. Covered by 51 automated tests with pytest.",
+        "projects.trackit.title": "Project and task tracker (TrackIt)",
+        "projects.trackit.imageAlt": "TrackIt task list with completed tasks struck through",
+        "projects.trackit.imageAria": "View the TrackIt code on GitHub",
+        "projects.trackit.description": "A project and task tracker built with Flask and a JSON REST API, with a plain HTML, CSS and JavaScript front end that talks to it using fetch(). Each user only ever sees their own projects and tasks, and other users' data returns 404 so it is never leaked. Covered by 57 automated tests, including cross-user isolation.",
 
         "skills.title": "Skills",
         "skills.technical": "Technical",
@@ -63,6 +67,10 @@ const translations = {
         "projects.helpdesk.imageAlt": "Panel de inicio de Help Desk con estadísticas de tickets y alerta de tickets sin asignar",
         "projects.helpdesk.imageAria": "Ver el código de Help Desk en GitHub",
         "projects.helpdesk.description": "Aplicación web de soporte con Flask: los usuarios registran incidencias y el equipo técnico gestiona su estado, prioridad y asignación, con comentarios, historial de cambios y filtros de búsqueda. Cubierta por 51 pruebas automatizadas con pytest.",
+        "projects.trackit.title": "Gestor de proyectos y tareas (TrackIt)",
+        "projects.trackit.imageAlt": "Lista de tareas de TrackIt con las tareas completadas tachadas",
+        "projects.trackit.imageAria": "Ver el código de TrackIt en GitHub",
+        "projects.trackit.description": "Gestor de proyectos y tareas creado con Flask y una API REST en JSON, con un front end en HTML, CSS y JavaScript que se comunica con ella mediante fetch(). Cada usuario solo ve sus propios proyectos y tareas, y los datos de otros usuarios devuelven 404 para no revelar su existencia. Cubierto por 57 pruebas automatizadas, incluido el aislamiento entre usuarios.",
 
         "skills.title": "Habilidades",
         "skills.technical": "Técnicas",

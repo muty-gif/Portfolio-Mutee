@@ -43,13 +43,19 @@ Este es mi portafolio personal: un sitio estático rápido y sin dependencias qu
 | Comportamiento | JavaScript vanilla (selector de idioma i18n) |
 | Alojamiento | GitHub Pages |
 
-## Proyecto destacado
+## Proyectos destacados
 
 ### [Sistema de tickets (Help Desk)](https://github.com/muty-gif/Help-Desk-L1)
 
 Aplicación web de soporte con Flask: los usuarios registran incidencias y el equipo técnico gestiona su estado, prioridad y asignación, con comentarios, historial de cambios y filtros de búsqueda. Cubierta por 51 pruebas automatizadas con pytest.
 
 <img src="images/help-desk-dashboard.png" alt="Panel de inicio de Help Desk con estadísticas de tickets y alerta de tickets sin asignar" width="100%">
+
+### [Gestor de proyectos y tareas (TrackIt)](https://github.com/muty-gif/TrackIt)
+
+Gestor de proyectos y tareas creado con Flask y una API REST en JSON, con un front end en HTML, CSS y JavaScript que se comunica con ella mediante `fetch()`. Cada usuario solo ve sus propios proyectos y tareas, y los datos de otros usuarios devuelven `404` para no revelar su existencia. Cubierto por 57 pruebas automatizadas, incluido el aislamiento entre usuarios.
+
+<img src="images/trackit-tasks.png" alt="Lista de tareas de TrackIt con las tareas completadas tachadas" width="100%">
 
 ## Estructura del proyecto
 
@@ -58,7 +64,7 @@ Portfolio-Mutee/
 ├── index.html    # Estructura y contenido de la página (el texto por defecto está en inglés)
 ├── styles.css    # Tema oscuro con verde neón, diseño responsivo y detalles de accesibilidad
 ├── script.js     # Selector de idioma + diccionario de traducciones EN/ES
-└── images/       # Favicon, captura del proyecto y vistas previas para el README
+└── images/       # Favicon, capturas de los proyectos y vistas previas para el README
 ```
 
 ## Ejecutar en local
