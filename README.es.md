@@ -2,7 +2,7 @@
 
 # Mutee Rafi Anjum — Portafolio
 
-**Sitio web personal: un portafolio de una sola página, sin frameworks y sin proceso de compilación.**
+**Sitio web personal, un portafolio de una sola página, sin frameworks y sin proceso de compilación.**
 
 [![Demo en vivo](https://img.shields.io/badge/demo%20en%20vivo-muty--gif.github.io-39ff14?style=flat-square)](https://muty-gif.github.io/Portfolio-Mutee/)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/docs/Web/HTML)
@@ -22,17 +22,17 @@
 
 ## Sobre este sitio
 
-Este es mi portafolio personal: un sitio estático rápido y sin dependencias que presenta quién soy, lo que estoy aprendiendo y los proyectos que construyo mientras curso ingeniería informática. Es totalmente bilingüe, de modo que quien lo visite puede leerlo en inglés o en español con un solo clic.
+Este es mi portafolio personal; un sitio estático rápido y sin dependencias que presenta quién soy, lo que estoy aprendiendo y los proyectos que construyo mientras curso ingeniería informática. Es totalmente bilingüe, de modo que quien lo visite puede leerlo en inglés o en español con un solo clic.
 
 **[→ Ver el sitio en vivo](https://muty-gif.github.io/Portfolio-Mutee/)**
 
 ## Características
 
-- **Bilingüe (EN / ES)** — un selector de idioma en la cabecera, con detección del idioma del navegador en la primera visita y la preferencia guardada para la siguiente.
-- **Responsivo** — funciona desde teléfonos pequeños hasta pantallas de escritorio amplias.
-- **Accesible** — HTML semántico, navegación con teclado, estados de foco visibles y soporte de `prefers-reduced-motion`.
-- **Ligero** — HTML, CSS y JavaScript vanilla. Sin dependencias y sin proceso de compilación: carga en un instante.
-- **Listo para SEO y redes** — descripción meta, etiquetas Open Graph y favicon propio.
+- **Bilingüe (EN / ES)**: un selector de idioma en la cabecera, con detección del idioma del navegador en la primera visita y la preferencia guardada para la siguiente.
+- **Responsivo**: funciona desde teléfonos pequeños hasta pantallas de escritorio amplias.
+- **Accesible**: HTML semántico, navegación con teclado, estados de foco visibles y soporte de `prefers-reduced-motion`.
+- **Ligero**: HTML, CSS y JavaScript vanilla. Sin dependencias y sin proceso de compilación, carga en un instante.
+- **Listo para SEO y redes**: descripción meta, etiquetas Open Graph y favicon propio.
 
 ## Tecnologías
 
@@ -47,7 +47,7 @@ Este es mi portafolio personal: un sitio estático rápido y sin dependencias qu
 
 ### [Sistema de tickets (Help Desk)](https://github.com/muty-gif/Help-Desk-L1)
 
-Aplicación web de soporte con Flask: los usuarios registran incidencias y el equipo técnico gestiona su estado, prioridad y asignación, con comentarios, historial de cambios y filtros de búsqueda. Cubierta por 51 pruebas automatizadas con pytest.
+Aplicación web de soporte con Flask. Los usuarios registran incidencias y el equipo técnico gestiona su estado, prioridad y asignación, con comentarios, historial de cambios y filtros de búsqueda. Cubierta por 51 pruebas automatizadas con pytest.
 
 <img src="images/help-desk-dashboard.png" alt="Panel de inicio de Help Desk con estadísticas de tickets y alerta de tickets sin asignar" width="100%">
 
