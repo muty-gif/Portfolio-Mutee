@@ -1,6 +1,6 @@
 <div align="center">
 
-# Mutee Rafi Anjum — Portafolio
+# Mutee Rafi Anjum - Portafolio
 
 **Sitio web personal, un portafolio de una sola página, sin frameworks y sin proceso de compilación.**
 
