@@ -28,11 +28,21 @@ This is my personal portfolio; a fast, dependency-free static site that presents
 
 ## Features
 
+<<<<<<< HEAD
 - **Bilingual (EN / ES)**: a language switch in the header, with browser-language detection on first visit and the choice remembered for the next one.
 - **Responsive**: works from small phones up to wide desktop screens.
 - **Accessible**: semantic HTML, keyboard navigation, visible focus states and `prefers-reduced-motion` support.
 - **Lightweight**: plain HTML, CSS and vanilla JavaScript. No dependencies, no build step, loads in a blink.
 - **SEO & social ready**: meta description, Open Graph tags and a custom favicon.
+=======
+- **Bilingual (EN / ES)** — a language switch in the header, with browser-language detection on first visit and the choice remembered for the next one.
+- **Project galleries** — framed screenshots with tech tags, thumbnails and a full-size viewer with keyboard navigation.
+- **Contact cards** — icon links to GitHub and LinkedIn, plus one-click copy for the email address.
+- **Responsive** — works from small phones up to wide desktop screens.
+- **Accessible** — semantic HTML, keyboard navigation, visible focus states and `prefers-reduced-motion` support.
+- **Lightweight** — plain HTML, CSS and vanilla JavaScript. No dependencies, no build step, loads in a blink.
+- **SEO & social ready** — meta description, Open Graph tags with a 1200×630 preview image, and a custom favicon.
+>>>>>>> 23d5232 (Add project galleries, contact cards and visual polish)
 
 ## Tech stack
 
@@ -40,7 +50,7 @@ This is my personal portfolio; a fast, dependency-free static site that presents
 | --- | --- |
 | Structure | HTML5 |
 | Styles | CSS3 (custom properties, Flexbox, media queries) |
-| Behaviour | Vanilla JavaScript (i18n switcher) |
+| Behaviour | Vanilla JavaScript (i18n switcher, gallery viewer) |
 | Hosting | GitHub Pages |
 
 ## Featured projects
@@ -63,7 +73,7 @@ A project and task tracker built with Flask and a JSON REST API, with a plain HT
 Portfolio-Mutee/
 ├── index.html    # Page structure and content (English is the default text)
 ├── styles.css    # Dark neon theme, responsive layout, accessibility details
-├── script.js     # Language switcher + the EN/ES translation dictionary
+├── script.js     # Language switcher, translations, project gallery and contact copy
 └── images/       # Favicon, project screenshots and README previews
 ```
 

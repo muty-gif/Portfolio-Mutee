@@ -28,11 +28,21 @@ Este es mi portafolio personal; un sitio estático rápido y sin dependencias qu
 
 ## Características
 
+<<<<<<< HEAD
 - **Bilingüe (EN / ES)**: un selector de idioma en la cabecera, con detección del idioma del navegador en la primera visita y la preferencia guardada para la siguiente.
 - **Responsivo**: funciona desde teléfonos pequeños hasta pantallas de escritorio amplias.
 - **Accesible**: HTML semántico, navegación con teclado, estados de foco visibles y soporte de `prefers-reduced-motion`.
 - **Ligero**: HTML, CSS y JavaScript vanilla. Sin dependencias y sin proceso de compilación, carga en un instante.
 - **Listo para SEO y redes**: descripción meta, etiquetas Open Graph y favicon propio.
+=======
+- **Bilingüe (EN / ES)** — un selector de idioma en la cabecera, con detección del idioma del navegador en la primera visita y la preferencia guardada para la siguiente.
+- **Galerías de proyectos** — capturas enmarcadas con etiquetas de tecnologías, miniaturas y un visor a tamaño completo con navegación por teclado.
+- **Tarjetas de contacto** — enlaces con icono a GitHub y LinkedIn, y copia del correo electrónico con un solo clic.
+- **Responsivo** — funciona desde teléfonos pequeños hasta pantallas de escritorio amplias.
+- **Accesible** — HTML semántico, navegación con teclado, estados de foco visibles y soporte de `prefers-reduced-motion`.
+- **Ligero** — HTML, CSS y JavaScript vanilla. Sin dependencias y sin proceso de compilación: carga en un instante.
+- **Listo para SEO y redes** — descripción meta, etiquetas Open Graph con una imagen de vista previa de 1200×630 y favicon propio.
+>>>>>>> 23d5232 (Add project galleries, contact cards and visual polish)
 
 ## Tecnologías
 
@@ -40,7 +50,7 @@ Este es mi portafolio personal; un sitio estático rápido y sin dependencias qu
 | --- | --- |
 | Estructura | HTML5 |
 | Estilos | CSS3 (propiedades personalizables, Flexbox, media queries) |
-| Comportamiento | JavaScript vanilla (selector de idioma i18n) |
+| Comportamiento | JavaScript vanilla (selector de idioma, visor de galería) |
 | Alojamiento | GitHub Pages |
 
 ## Proyectos destacados
@@ -63,7 +73,7 @@ Gestor de proyectos y tareas creado con Flask y una API REST en JSON, con un fro
 Portfolio-Mutee/
 ├── index.html    # Estructura y contenido de la página (el texto por defecto está en inglés)
 ├── styles.css    # Tema oscuro con verde neón, diseño responsivo y detalles de accesibilidad
-├── script.js     # Selector de idioma + diccionario de traducciones EN/ES
+├── script.js     # Selector de idioma, traducciones, galería de proyectos y copia del correo
 └── images/       # Favicon, capturas de los proyectos y vistas previas para el README
 ```
 
