@@ -28,21 +28,13 @@ Este es mi portafolio personal; un sitio estático rápido y sin dependencias qu
 
 ## Características
 
-<<<<<<< HEAD
 - **Bilingüe (EN / ES)**: un selector de idioma en la cabecera, con detección del idioma del navegador en la primera visita y la preferencia guardada para la siguiente.
+- **Galerías de proyectos**: capturas enmarcadas con etiquetas de tecnologías, miniaturas y un visor a tamaño completo con navegación por teclado.
+- **Tarjetas de contacto**: enlaces con icono a GitHub y LinkedIn, y copia del correo electrónico con un solo clic.
 - **Responsivo**: funciona desde teléfonos pequeños hasta pantallas de escritorio amplias.
 - **Accesible**: HTML semántico, navegación con teclado, estados de foco visibles y soporte de `prefers-reduced-motion`.
 - **Ligero**: HTML, CSS y JavaScript vanilla. Sin dependencias y sin proceso de compilación, carga en un instante.
-- **Listo para SEO y redes**: descripción meta, etiquetas Open Graph y favicon propio.
-=======
-- **Bilingüe (EN / ES)** — un selector de idioma en la cabecera, con detección del idioma del navegador en la primera visita y la preferencia guardada para la siguiente.
-- **Galerías de proyectos** — capturas enmarcadas con etiquetas de tecnologías, miniaturas y un visor a tamaño completo con navegación por teclado.
-- **Tarjetas de contacto** — enlaces con icono a GitHub y LinkedIn, y copia del correo electrónico con un solo clic.
-- **Responsivo** — funciona desde teléfonos pequeños hasta pantallas de escritorio amplias.
-- **Accesible** — HTML semántico, navegación con teclado, estados de foco visibles y soporte de `prefers-reduced-motion`.
-- **Ligero** — HTML, CSS y JavaScript vanilla. Sin dependencias y sin proceso de compilación: carga en un instante.
-- **Listo para SEO y redes** — descripción meta, etiquetas Open Graph con una imagen de vista previa de 1200×630 y favicon propio.
->>>>>>> 23d5232 (Add project galleries, contact cards and visual polish)
+- **Listo para SEO y redes**: descripción meta, etiquetas Open Graph con una imagen de vista previa de 1200×630 y favicon propio.
 
 ## Tecnologías
 

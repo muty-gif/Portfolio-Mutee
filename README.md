@@ -28,21 +28,13 @@ This is my personal portfolio; a fast, dependency-free static site that presents
 
 ## Features
 
-<<<<<<< HEAD
 - **Bilingual (EN / ES)**: a language switch in the header, with browser-language detection on first visit and the choice remembered for the next one.
+- **Project galleries**: framed screenshots with tech tags, thumbnails and a full-size viewer with keyboard navigation.
+- **Contact cards**: icon links to GitHub and LinkedIn, plus one-click copy for the email address.
 - **Responsive**: works from small phones up to wide desktop screens.
 - **Accessible**: semantic HTML, keyboard navigation, visible focus states and `prefers-reduced-motion` support.
 - **Lightweight**: plain HTML, CSS and vanilla JavaScript. No dependencies, no build step, loads in a blink.
-- **SEO & social ready**: meta description, Open Graph tags and a custom favicon.
-=======
-- **Bilingual (EN / ES)** — a language switch in the header, with browser-language detection on first visit and the choice remembered for the next one.
-- **Project galleries** — framed screenshots with tech tags, thumbnails and a full-size viewer with keyboard navigation.
-- **Contact cards** — icon links to GitHub and LinkedIn, plus one-click copy for the email address.
-- **Responsive** — works from small phones up to wide desktop screens.
-- **Accessible** — semantic HTML, keyboard navigation, visible focus states and `prefers-reduced-motion` support.
-- **Lightweight** — plain HTML, CSS and vanilla JavaScript. No dependencies, no build step, loads in a blink.
-- **SEO & social ready** — meta description, Open Graph tags with a 1200×630 preview image, and a custom favicon.
->>>>>>> 23d5232 (Add project galleries, contact cards and visual polish)
+- **SEO & social ready**: meta description, Open Graph tags with a 1200×630 preview image, and a custom favicon.
 
 ## Tech stack
 
