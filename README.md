@@ -55,9 +55,9 @@ A Flask-based support web application. Users report issues and the technical tea
 
 ### [Project and task tracker (TrackIt)](https://github.com/muty-gif/TrackIt)
 
-A project and task tracker built with Flask and a JSON REST API, with a plain HTML, CSS and JavaScript front end that talks to it using `fetch()`. Each user only ever sees their own projects and tasks, and other users' data returns `404` so it is never leaked. Covered by 57 automated tests, including cross-user isolation.
+A project and task tracker built with Flask, SQLAlchemy and a JSON REST API, with a metrics dashboard and a plain HTML, CSS and JavaScript front end that talks to it using `fetch()`. Each user only ever sees their own projects and tasks, and other users' data returns `404` so it is never leaked. Covered by 70 automated tests, including cross-user isolation.
 
-<img src="images/trackit-tasks.png" alt="TrackIt task list with completed tasks struck through" width="100%">
+<img src="images/trackit-tasks.png" alt="TrackIt task list with inline status, priority and due-date controls" width="100%">
 
 ## Project structure
 

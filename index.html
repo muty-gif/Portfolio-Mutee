@@ -162,8 +162,8 @@
                                 aria-label="Open TrackIt screenshots">
                             <img src="images/trackit-tasks.png"
                                  data-i18n-alt="projects.trackit.imageAlt"
-                                 alt="TrackIt task list with completed tasks struck through"
-                                 width="1920" height="935">
+                                 alt="TrackIt task list with inline status, priority and due-date controls"
+                                 width="1920" height="934">
                             <span class="shot-zoom" aria-hidden="true">
                                 <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                     <path d="M8 3H5a2 2 0 0 0-2 2v3M16 3h3a2 2 0 0 1 2 2v3M21 16v3a2 2 0 0 1-2 2h-3M3 16v3a2 2 0 0 0 2 2h3"/>
@@ -177,10 +177,10 @@
                         <h3 data-i18n="projects.trackit.title">Project and task tracker (TrackIt)</h3>
 
                         <p data-i18n="projects.trackit.description">
-                        A project and task tracker built with Flask and a JSON REST API, with a plain HTML, CSS and
-                        JavaScript front end that talks to it using fetch(). Each user only ever sees their own
-                        projects and tasks, and other users' data returns 404 so it is never leaked. Covered by
-                        57 automated tests, including cross-user isolation.
+                        A project and task tracker built with Flask, SQLAlchemy and a JSON REST API, with a metrics
+                        dashboard and a plain HTML, CSS and JavaScript front end that talks to it using fetch(). Each
+                        user only ever sees their own projects and tasks, and other users' data returns 404 so it is
+                        never leaked. Covered by 70 automated tests, including cross-user isolation.
                         </p>
 
                         <ul class="tech" data-i18n-aria-label="projects.techLabel" aria-label="Technologies">
@@ -188,7 +188,7 @@
                             <li>Flask</li>
                             <li>JavaScript</li>
                             <li>REST API</li>
-                            <li>pytest</li>
+                            <li>SQLAlchemy</li>
                         </ul>
 
                         <ul class="thumbs" data-thumbs="trackit">
@@ -196,24 +196,24 @@
                                 <button type="button" data-index="0" aria-current="true">
                                     <img src="images/trackit-tasks.png"
                                          data-i18n-alt="projects.trackit.imageAlt"
-                                         alt="TrackIt task list with completed tasks struck through"
-                                         width="1920" height="935">
+                                         alt="TrackIt task list with inline status, priority and due-date controls"
+                                         width="1920" height="934">
                                 </button>
                             </li>
                             <li>
                                 <button type="button" data-index="1">
                                     <img src="images/trackit-projects.png"
                                          data-i18n-alt="projects.trackit.projectsAlt"
-                                         alt="TrackIt projects overview with a new project form and a project card"
-                                         width="1920" height="935">
+                                         alt="TrackIt projects overview with a project card and its progress"
+                                         width="1920" height="933">
                                 </button>
                             </li>
                             <li>
                                 <button type="button" data-index="2">
                                     <img src="images/trackit-project.png"
                                          data-i18n-alt="projects.trackit.projectAlt"
-                                         alt="TrackIt project page with the edit form and task list"
-                                         width="1920" height="935">
+                                         alt="TrackIt project page with tasks, filters and inline controls"
+                                         width="1920" height="933">
                                 </button>
                             </li>
                         </ul>

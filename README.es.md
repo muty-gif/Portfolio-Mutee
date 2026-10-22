@@ -55,9 +55,9 @@ Aplicación web de soporte con Flask. Los usuarios registran incidencias y el eq
 
 ### [Gestor de proyectos y tareas (TrackIt)](https://github.com/muty-gif/TrackIt)
 
-Gestor de proyectos y tareas creado con Flask y una API REST en JSON, con un front end en HTML, CSS y JavaScript que se comunica con ella mediante `fetch()`. Cada usuario solo ve sus propios proyectos y tareas, y los datos de otros usuarios devuelven `404` para no revelar su existencia. Cubierto por 57 pruebas automatizadas, incluido el aislamiento entre usuarios.
+Gestor de proyectos y tareas creado con Flask, SQLAlchemy y una API REST en JSON, con un panel de métricas y un front end en HTML, CSS y JavaScript que se comunica con ella mediante `fetch()`. Cada usuario solo ve sus propios proyectos y tareas, y los datos de otros usuarios devuelven `404` para no revelar su existencia. Cubierto por 70 pruebas automatizadas, incluido el aislamiento entre usuarios.
 
-<img src="images/trackit-tasks.png" alt="Lista de tareas de TrackIt con las tareas completadas tachadas" width="100%">
+<img src="images/trackit-tasks.png" alt="Lista de tareas de TrackIt con controles en línea de estado, prioridad y fecha de vencimiento" width="100%">
 
 ## Estructura del proyecto
 
